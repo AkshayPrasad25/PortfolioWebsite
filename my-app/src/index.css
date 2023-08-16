@@ -32,12 +32,14 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .btn-light {
   /* background: rgba(255, 255, 255, 0.2); */
   background: transparent;
   color: #fff;
+  border-radius: 0.5rem;
 }
 
 .btn:hover {
@@ -45,3 +47,4 @@ ul {
   color: #fff;
   transition: 0.3s;
 }
+
