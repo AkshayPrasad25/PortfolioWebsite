@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.NavMenu {
+    display: flex;
+}
+
+.NavMenu li {
+    padding: 0 1rem;
+}
+
+.NavMenu li a {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.dropdown {
+    display: none;
+}
+
+@media screen and (max-width: 1040px) {
+    .NavMenu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -3;
+
+    }
+    .NavMenu li {
+        padding: 1rem 0;
+    }
+    .NavMenu li a {
+        font-size: 2rem;
+    }
+    .dropdown {
+        display: initial;
+
+    }
+}
