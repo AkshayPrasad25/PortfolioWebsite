@@ -22,14 +22,14 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-        <Link to="./">
+        <Link to="/">
             <h1>Portfolio</h1>
         </Link>
         <ul className={click ? ("NavMenu active") : ("NavMenu")}>
-            <li><Link to="./">Home</Link></li>
-            <li><Link to="./projects">Projects</Link></li>
-            <li><Link to="./about">About</Link></li>
-            <li><Link to="./contact">Contact</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
         <div className="dropdown" onClick={handleClick}>
             {click ? (<FaTimes size={20} style={{color: "#fff"}} />) : (<FaBars size={20} style={{color: "#fff"}} />)}
