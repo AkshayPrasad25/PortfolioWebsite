@@ -1,6 +1,7 @@
 import "./Footer.css"
 import React from 'react'
 import {FaHome, FaLinkedin, FaMailBulk, FaPhone} from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -31,7 +32,7 @@ const Footer = () => {
                     while developing proficiency in programming and collaboration.
                 </p>
                 <div className="social">
-                    <FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}} />
+                    <Link to={"https://www.linkedin.com/in/akshay-prasad-1aa970247/"} ><FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}} /></Link>
                 </div>
                 
             </div>
