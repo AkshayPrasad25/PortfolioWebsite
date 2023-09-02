@@ -10,7 +10,7 @@ const MainImage = () => {
             <img className="into-img" src={IntroImg} alt="IntroImg"></img>
         </div>
         <div className="content">
-            <h1>Hi I'm Akshay</h1>
+            <h1>Hi, I'm Akshay</h1>
             <div>
                 <Link to="/projects" className="btn">Projects</Link>
                 <Link to="/contact" className="btn btn-light">Contact</Link>
