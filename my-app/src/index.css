@@ -55,7 +55,7 @@ ul {
   border: none;
   outline: none;
   color: #fff;
-  background: #111;
+  background: transparent;
   cursor: pointer;
   position: relative;
   z-index: 0;
