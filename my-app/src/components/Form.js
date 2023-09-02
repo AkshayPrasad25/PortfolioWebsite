@@ -11,7 +11,7 @@ const Form = () => {
 
     emailjs.sendForm('service_89qv02u', 'template_pqw57ij', form.current, '04oTAt_60ZAxj1Aft')
       .then((result) => {
-          console.log(result.text);
+          alert("Message Sent Successfully!");
       }, (error) => {
           console.log(error.text);
       });
