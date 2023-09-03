@@ -51,4 +51,10 @@
     font-size: 3rem;
 }
 
+.content .btn {
+    margin: 1rem 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
 }
