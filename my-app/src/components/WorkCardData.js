@@ -7,19 +7,19 @@ import pro4 from "../assets/pro4.jpg"
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: "AutoRasp Front-End Design",
+        title: "AutoRasp Front-End Design & Dev",
         text: "A tool for network admins and automation engineers to optimize boring, repetitive tasks by automating it, and to perform quick backups in case of emergencies",
         view:"https://youtu.be/ibXGUVPBUSQ?si=W2nKHW_pA9kU3u9B"
     },
     {
         imgsrc: pro2,
-        title: "Piducky Front-End Design",
+        title: "Piducky Front-End Design & Dev",
         text: "Key stroke injection & penetration testing device.It enables on the fly creation and deployment of payloads.Designed fully responsive Front-End using HTML, CSS & JavaScript",
         view:"https://docs.google.com/presentation/d/1dfLFolf7xmLUEg9ibj8veJiMN9AUxf8l/edit?usp=sharing&ouid=116697039010815961184&rtpof=true&sd=true"
     },
     {
         imgsrc: pro3,
-        title: "Howlr Front-End Design",
+        title: "Howlr Front-End Design & Dev",
         text: "A platform for startups/entrepreneurs to identify and hire the right talent.  Designed fully responsive Front-End using HTML, CSS & JavaScript",
         view:"https://docs.google.com/presentation/d/1l5Mqe2OH37hWOEIlE-RIna6Is_WYYlkQ/edit?usp=sharing&ouid=116697039010815961184&rtpof=true&sd=true"
     },
