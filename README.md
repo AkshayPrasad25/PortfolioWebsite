@@ -16,7 +16,7 @@ This is my first portfolio website which I created when I just started learning 
 git clone https://github.com/AkshayPrasad25/PortfolioWebsite.git
 ```
 
-### [2] Install required packages in both Client and Server.
+### [2] Install required packages.
 ``` bash
 npm i
 ```
