@@ -13,7 +13,7 @@ This is my first portfolio website which I created when I just started learning 
 
 ### [1] Clone the repository
 ``` bash
-git clone https://github.com/AkshayPrasad25/AquaAI_React.git
+git clone https://github.com/AkshayPrasad25/PortfolioWebsite.git
 ```
 
 ### [2] Install required packages in both Client and Server.
